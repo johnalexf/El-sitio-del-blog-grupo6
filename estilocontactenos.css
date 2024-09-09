@@ -4,6 +4,7 @@ html{
 }
 
 #contactenos{
+    padding-top: 50px;
     width: 100%;
     background-image: url('./Pic/fondoGamer.jpg');
     background-size: 100% ;
@@ -33,10 +34,8 @@ body {
   
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    height: 100%;
+
 }
  
 .container {
@@ -164,3 +163,39 @@ nav {
     top: 0;
     width: 100%;
   }
+
+  /*FOOTER*/
+
+footer {
+    background-color: rgba(25, 25, 112); /* Color de fondo del pie de página */
+    color: #fff; /* Color del texto */
+    padding: 20px 0; /* Espaciado alrededor del contenido */
+    text-align: center; /* Centrar el texto */
+    font-size: 15px;
+    
+  }
+  .autores{
+    text-align: center; 
+    list-style-type: none;
+  }
+  
+  .titulos_footer{
+    text-align: center; 
+    font-size: 17px;
+    margin-left: 2%;
+  }
+  
+  .social-media a {
+    margin: 0 10px;
+  }
+  
+  .social-icon {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.1);
+  }
+
+
