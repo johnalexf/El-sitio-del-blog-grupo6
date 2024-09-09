@@ -1,6 +1,6 @@
 html{
     background-image: url('../../Pic/fondoGamer.jpg');
-    background-size: contain ;
+    background-size: 100% ;
 }
 
 #tituloSomos{
