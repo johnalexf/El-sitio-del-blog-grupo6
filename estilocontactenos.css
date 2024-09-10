@@ -4,13 +4,18 @@ html{
 }
 
 #contactenos{
+    
     padding-top: 50px;
     width: 100%;
     background-image: url('./Pic/fondoGamer.jpg');
     background-size: 100% ;
+    color: white;
 }
 
+
+
 #tituloContactenos{
+  /* background-color: yellow; */
     background-color: rgba(0, 0, 0,0.3);
     margin: 1%;
     padding:  3%;
@@ -19,19 +24,23 @@ html{
     color: white;
 }
 
+#datos{
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
 #contenidoContactenos{
+  /* background-color: red; */
     background-color: rgba(0, 0, 0,0.3);
-    margin-left: 20%;
-    margin-right: 20%;
-    padding: 10%;
-    border-radius: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 1%;
     text-align: justify;
     color: white;
 }
 
 body {
     font-family: Arial, sans-serif;
-  
     margin: 0;
     padding: 0;
     height: 100%;
@@ -39,11 +48,11 @@ body {
 }
  
 .container {
-    
-    padding: 20px;
+    margin: 1%;
+    padding: 2%;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px; */
     width: 100%;
 }
  
@@ -63,9 +72,9 @@ h1 {
 }
  
 .form-group input, .form-group textarea {
-    width: 100%;
+    width: 90%;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #1a0808;
     border-radius: 4px;
 }
  
